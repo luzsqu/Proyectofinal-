@@ -62,11 +62,14 @@ margin-left: -15px;
 
  /*redessociales*/
 
- .ig {width: 40px; }
-.fb {width: 40px; }
+ 
+.row {
+margin-right: -15px;
+margin-left: -15px;
 
+}
 .li2 {
-width: 20px; 
+width: 90px; 
 transition: 2s ;
 display: inline-flex;
 }
@@ -76,7 +79,6 @@ width: 30px;
 height: auto; 
 background-color: #b3e971 ; 
 }
-
 
 a {
 list-style: none ;
@@ -91,4 +93,5 @@ transition: 2s;
 text-shadow:5px 5px 10px #000000;}
 
 
-
+.ig {width: 40px; }
+.fb {width: 40px; }
