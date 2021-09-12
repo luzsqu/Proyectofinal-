@@ -4,58 +4,74 @@ $iconos:40px;
 $fontfamily:'roboto';
 $fontweight:400;
 $fondo:lightgrey;
+$titulos: bold;
 
 
 /* disenio*/
 
 *{
-	margin:15px
+margin:15px
 }
 
-  h1, h2, h3, h4 {
-  color: $black; }
+h1, h2, h3, h4 {
+color: $black; }
 
-  
-  .paddingTB {
-   align-items: center;
-	padding: 50px 10px 10px 10px;
-	}
+.text-center:hover {
+fuente:$fontfamily;
+tamanio:$fontweight;
+forma: $titulos;
+width: 30px;
+height: auto; 
+}
+.text-center:hover {
+background-color: #b3e971;
+color: #cad6a7;
+background-color: #e1e3e1; 
+transition: width 2s, height 2s, transform 2s;
+}
+
+
+.paddingTB {
+align-items: center;
+padding: 50px 10px 10px 10px;
+}
 
 .container-fluid {
-	padding-right: 20px;
-	padding-left: 20px;
-	margin-right: auto;
-	margin-left: auto;}
-
-. container {
-	background:$fondo
+padding-right: 20px;
+padding-left: 20px;
+margin-right: auto;
+margin-left: auto;
 }
 
-  /*seccion servicios*/
+.form-horizontal {
+background:$fondo
+}
+
+/*seccion servicios*/
 
 .marketing {
-  	h2 {
-  		font: $fontfamily;
-  		tamanio: $fontweight;
- 		}
-  }
+h2 {
+font: $fontfamily;
+tamanio: $fontweight;
+}
+}
 .marketing .col-lg-4 {
-  margin-bottom: 2rem;
-  text-align: center;
-  p {
-  margin-right: .75rem;
-  margin-left: .75rem;
-  } 
- }
+margin-bottom: 2rem;
+text-align: center;
+p {
+margin-right: .75rem;
+margin-left: .75rem;
+} 
+}
 
 /* seccion nosotras*/
 .featurette-divider {
-  margin: 5rem 0;} 
- 
+margin: 5rem 0;} 
+
 .featurette-heading {
-  font-weight: $fontweight;
-  line-height: 1;
-  letter-spacing: -.05rem;
+font-weight: $fontweight;
+line-height: 1;
+letter-spacing: -.05rem;
 }
 
 
@@ -64,9 +80,9 @@ margin-right: -15px;
 margin-left: -15px;
 }
 
- /*redessociales*/
+/*redessociales*/
 
- 
+
 .row {
 margin-right: -15px;
 margin-left: -15px;
