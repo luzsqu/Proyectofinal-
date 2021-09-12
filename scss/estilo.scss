@@ -3,6 +3,7 @@ $black:negro;
 $iconos:40px;
 $fontfamily:'roboto';
 $fontweight:400;
+$fondo:lightgrey;
 
 
 /* disenio*/
@@ -24,7 +25,10 @@ $fontweight:400;
 	padding-right: 20px;
 	padding-left: 20px;
 	margin-right: auto;
-	margin-left: auto;
+	margin-left: auto;}
+
+. container {
+	background:$fondo
 }
 
   /*seccion servicios*/
@@ -49,7 +53,7 @@ $fontweight:400;
   margin: 5rem 0;} 
  
 .featurette-heading {
-  font-weight: 300;
+  font-weight: $fontweight;
   line-height: 1;
   letter-spacing: -.05rem;
 }
