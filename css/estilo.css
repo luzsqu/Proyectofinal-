@@ -2,7 +2,7 @@
 /* disenio*/
 * {
   margin: 15px; }
-
+/*textos*/
 h1, h2, h3, h4 {
   color: negro; }
 
@@ -39,13 +39,14 @@ h1, h2, h3, h4 {
 
 .row {
   margin-right: -15px;
-  margin-left: -15px;
-  /*redessociales*/ }
-  .row ig fb {
+  margin-left: -15px;}
+ 
+  /*redessociales*/ 
+  .row  {
     width: 40px; }
 
 .li2 {
-  width: 5px;
+  width: 20px;
   transition: 2s;
   display: inline-flex; }
 
