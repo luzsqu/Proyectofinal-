@@ -16,13 +16,7 @@ margin:15px
 h1, h2, h3, h4 {
 color: $black; }
 
-.text-center:hover {
-fuente:$fontfamily;
-tamanio:$fontweight;
-forma: $titulos;
-width: 30px;
-height: auto; 
-}
+
 .text-center:hover {
 background-color: #b3e971;
 color: #cad6a7;
@@ -65,6 +59,7 @@ margin-left: .75rem;
 }
 
 /* seccion nosotras*/
+
 .featurette-divider {
 margin: 5rem 0;} 
 
@@ -75,13 +70,7 @@ letter-spacing: -.05rem;
 }
 
 
-.row {
-margin-right: -15px;
-margin-left: -15px;
-}
-
 /*redessociales*/
-
 
 .row {
 margin-right: -15px;
@@ -95,7 +84,7 @@ display: inline-flex;
 }
 
 .li2:hover {
-width: 30px;
+width: 20px;
 height: auto; 
 background-color: #b3e971 ; 
 }
